@@ -151,7 +151,7 @@ networks:
 1、添加java sdk依赖
 ```xml
        <dependency>
-            <groupId>com.xiaoxi</groupId>
+            <groupId>com.navmg</groupId>
             <artifactId>resolve-lib</artifactId>
             <version>1.0.0</version>
         </dependency>
