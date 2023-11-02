@@ -15,7 +15,7 @@ version: "3"
 
 services:
   resolve-server:
-    image: registry.cn-hangzhou.aliyuncs.com/navmg/resolve:1.0.0
+    image: registry.cn-hangzhou.aliyuncs.com/navmg/resolve:1.0.2
     container_name: resolve-server
     hostname: resolve-server
     restart: always
@@ -153,7 +153,7 @@ networks:
        <dependency>
             <groupId>com.navmg</groupId>
             <artifactId>resolve-lib</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
 ```
 
